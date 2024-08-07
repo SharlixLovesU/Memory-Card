@@ -5,9 +5,9 @@ from PyQt5.QtCore import Qt
 
 window = QWidget()
 
-btn_menu = QPushButton()
-btn_rest = QPushButton()
-btn_next = QPushButton()
+btn_menu = QPushButton("Меню")
+btn_rest = QPushButton("Відпочити")
+btn_next = QPushButton("Відповісти")
 
 rb_ans1 = QRadioButton("1")
 rb_ans2 = QRadioButton("2")
